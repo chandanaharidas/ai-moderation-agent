@@ -26,14 +26,14 @@ Violence Agent → Detects threats of physical harm or violence.
 Each agent has its own prompt and rules. This ensures higher accuracy because each agent focuses only on one category of unsafe content.
 To improve speed and efficiency, I executed all agents in parallel using Python’s concurrent.futures module. This means the system runs all moderation checks at the same time, allowing fast, real-time content classification.
 
-Benefits of using parallel agents:
+**Benefits of using parallel agents:**
 
     Faster processing (multiple checks run simultaneously)
     More accurate results
     Modular and scalable design (new agents can be added easily)
     Closer to real Trust & Safety systems used in industry
 
-Core Concept & Value
+**Core Concept & Value**
 
 The core idea of my project is a parallel multi-agent moderation system, where multiple agents independently analyze the same text for different harmful behaviours (harassment, hate speech, spam, toxicity, etc.).
 
