@@ -117,6 +117,7 @@ System Flow Diagram
 The system follows a simple flow from user input -> backend processing -> final output.
 1. **User**
 
+
 The user enters any text into the moderation dashboard.
 2. **Frontend (HTML/CSS /JS)**
 
