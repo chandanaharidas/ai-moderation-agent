@@ -390,8 +390,8 @@ Simulates real-world moderation pipeline
 **Moderation Dashboard**
 
 <img width="1366" height="768" alt="Screenshot from 2025-11-24 13-30-39" src="https://github.com/user-attachments/assets/6083dc5f-36ec-4400-a2dc-6a4dab11636d" />
-**Single Text Moderation**
 
+**Single Text Moderation**
 <img width="1366" height="768" alt="Screenshot from 2025-11-26 10-21-41" src="https://github.com/user-attachments/assets/94d183c0-bfbb-47bb-94d4-61c4ec1dc306" />
 **Batch Moderation**
 
