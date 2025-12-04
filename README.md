@@ -5,7 +5,7 @@ An end-to-end AI system that moderates harmful text using **Gemini** with a full
 ## Project Type
 **Agents Intensive – Capstone Project**
 
-Problem Statement :
+**Problem Statement :**
 
 Online platforms receive millions of user posts daily, and many contain unsafe content such as harassment, hate speech, toxicity, sexual content, and violent threats. Manual moderation is slow, expensive, and not scalable.
 
