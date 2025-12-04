@@ -16,11 +16,17 @@ In this project, I designed a parallel agent system because content moderation i
 
 Instead of depending on one large agent to do everything, I created multiple specialized agents, each with a dedicated responsibility:
 **Harassment Agent** → Detects rude, insulting, intimidating behavior
+
 **Hate Speech Agent** → Detects prejudice targeting race, gender, religion, caste, or groups
+
 **Spam Agent** → Detects spam, scams, promotions
+
 **Toxicity Agent** → Detects rude, aggressive, negative language
+
 **Sexual Agent** → Detects adult content or sexual content
+
 **Self Harm Agent** → Detects suicide intent or self-harm
+
 **Violence Agent** → Detects threats of physical harm or violence.
 
 Each agent has its own prompt and rules. This ensures higher accuracy because each agent focuses only on one category of unsafe content.
