@@ -394,13 +394,16 @@ Simulates real-world moderation pipeline
 
 <img width="1366" height="768" alt="Screenshot from 2025-11-26 10-21-41" src="https://github.com/user-attachments/assets/94d183c0-bfbb-47bb-94d4-61c4ec1dc306" />
 **Batch Moderation**
-<img width="1366" height="768" alt="Screenshot from 2025-11-26 10-25-13" src="https://github.com/user-attachments/assets/c6dc54f5-2ed7-4cbb-ab76-eba0c5ae9733" />
 
+<img width="1366" height="768" alt="Screenshot from 2025-11-26 10-25-13" src="https://github.com/user-attachments/assets/c6dc54f5-2ed7-4cbb-ab76-eba0c5ae9733" />
 **Batch Moderation Result**
+
 <img width="1366" height="768" alt="Screenshot from 2025-11-26 10-25-35" src="https://github.com/user-attachments/assets/71c813b0-bfc1-421f-9ccd-d0ee0fc78843" />
+**Batch Moderation(.txt file)**
+
+<img width="1366" height="768" alt="Screenshot from 2025-11-26 10-29-06" src="https://github.com/user-attachments/assets/498f1fdf-1e33-4293-8106-69e40151d0af" />
+**Batch Moderation Result(.txt file)** 
 
 <img width="1366" height="768" alt="Screenshot from 2025-11-26 10-29-49" src="https://github.com/user-attachments/assets/1cf9305c-cba6-482c-8616-93d1668f8547" />
-<img width="1366" height="768" alt="Screenshot from 2025-11-26 10-29-06" src="https://github.com/user-attachments/assets/498f1fdf-1e33-4293-8106-69e40151d0af" />
-<img width="1366" height="768" alt="Screenshot from 2025-11-26 10-25-35" src="https://github.com/user-attachments/assets/71c813b0-bfc1-421f-9ccd-d0ee0fc78843" />
 
 
