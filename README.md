@@ -59,7 +59,7 @@ What I created --
 
 I built an end-to-end AI Content Moderation System that combines Colab (for backend logic), Flask (for the API layer), and Gemini (for running parallel agents).
 
-Backend in Google Colab
+Backend in **Google Colab**
 The backend is developed and executed in Google Colab. All agent definitions, prompts, parallel execution logic, and result formatting happen here.
 
 Colab manages:
@@ -70,7 +70,7 @@ Colab manages:
 
 This is the main engine of the moderation system.
 
-Flask API Layer
+**Flask API Layer**
 I exposed the moderation engine using a Flask API so that the system can communicate with a front-end dashboard.
 Flask acts as the bridge between:
 
@@ -95,7 +95,7 @@ Each agent has its own instructions and operates independently.
 To improve speed, I execute all agents in parallel using Python’s concurrent.futures.
 This allows the system to classify text in real-time.
 
-Complete Moderation Pipeline
+**Complete Moderation Pipeline**
 The system performs the following:
 
     Accepts raw text
@@ -107,18 +107,18 @@ The system performs the following:
 
 Overall, I created a full moderation workflow from input → AI analysis → structured output → UI display. 
 
-Flow / Architecture--
+**Flow / Architecture--**
 System Flow Diagram
 
 <img width="1536" height="1024" alt="diagram" src="https://github.com/user-attachments/assets/4750e3ff-4236-400d-aa0a-428add2f4da6" />
 
-Architecture Explanation
+**Architecture Explanation**
 
 The system follows a simple flow from user input -> backend processing -> final output.
-1. User
+1. **User**
 
 The user enters any text into the moderation dashboard.
-2. Frontend (HTML/CSS /JS)
+2. **Frontend (HTML/CSS /JS)**
 
 The frontend only handles th UI:
 
@@ -126,7 +126,7 @@ The frontend only handles th UI:
     sends data to the backend
     displays results after processing
 
-3. Flask API Layer
+3. **Flask API Layer**
 
 The Flask exposes a /moderate endpoint.
 It:
@@ -136,7 +136,7 @@ It:
     returns structured JSON output back to the UI
 
 This layer connects the UI and the AI agents.
-4. Parallel Gemini Agents (Moderation Engine)
+4. **Parallel Gemini Agents (Moderation Engine)**
 
 This is the core intelligence of the system.
 
@@ -157,7 +157,7 @@ All agents run in parallel using Python’s concurrent.futures, which:
     increases accuracy
     ensures modularity
 
-5. Aggregation / Final Output
+5. **Aggregation / Final Output**
 
 Once all agents finish:
 
@@ -171,7 +171,7 @@ This combined output includes:
     agent decisions
     safety classification
 
-6. Frontend Display
+6. **Frontend Display**
 
 The UI shows the final moderation:
 
@@ -180,7 +180,7 @@ The UI shows the final moderation:
     Category-wise breakdown
     Clear structured output
 
-Demo -- How It Works
+## Demo -- How It Works
 
 This demo explains how my AI-based text moderation system works.
 
