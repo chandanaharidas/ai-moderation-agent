@@ -295,7 +295,7 @@ The Build -- 🔧 Tools & Technologies Used
 
 My AI Moderation System is built using a combination of modern web technologies and advanced AI tools. Each component plays a specific role in ensuring efficiency, accuracy, and smooth user experience.
 
-1️⃣ Frontend (User Interface)
+## 1️⃣ Frontend (User Interface)
 
 HTML, CSS, JavaScript
 
@@ -307,7 +307,7 @@ Displays results in real-time (single result, table for batch, dashboard summary
 
 Sends requests to the Flask backend using Fetch API
 
-2️⃣ Backend (Server Layer)
+## 2️⃣ Backend (Server Layer)
 
 Python + Flask Framework
 
@@ -321,7 +321,7 @@ Reads .txt files for file-based batch moderation
 
 Formats and returns structured JSON responses
 
-3️⃣ AI Model (Moderation Engine)
+## 3️⃣ AI Model (Moderation Engine)
 
 Gemini 2.5 Flash (Generative AI Model)
 
@@ -335,7 +335,7 @@ Supports both individual and batch moderation
 
 Generates a summary after batch processing
 
-4️⃣ Concurrency / Batch Processing Tools
+## 4️⃣ Concurrency / Batch Processing Tools
 
 Python’s concurrent.futures
 
@@ -345,7 +345,7 @@ Makes batch moderation faster and scalable
 
 Prevents the UI from hanging during large file processing
 
-5️⃣ File Handling
+## 5️⃣ File Handling
 
 Python File I/O
 
@@ -353,7 +353,7 @@ Supports .txt file upload
 
 Extracts lines from files and moderates them one by one
 
-6️⃣ Data Formatting
+## 6️⃣ Data Formatting
 
 JSON
 
@@ -363,14 +363,15 @@ Ensures structured, readable results
 
 Useful for summary generation and table display
 
-7️⃣ Deployment (Local Demo)
+## 7️⃣ Deployment (Local Demo)
 
 Flask Localhost (127.0.0.1:5000)
 
 Used for testing the dashboard
 
 Simulates real-world moderation pipeline
-If I had more time, this is what I'd do-
+
+**If I had more time, this is what I'd do-**
 
     Login authentication
     Image/Video Moderation
