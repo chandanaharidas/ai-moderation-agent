@@ -5,7 +5,7 @@ An end-to-end AI system that moderates harmful text using **Gemini** with a full
 ## Project Type
 **Agents Intensive – Capstone Project**
 
-**Problem Statement :**
+## Problem Statement :
 
 Online platforms receive millions of user posts daily, and many contain unsafe content such as harassment, hate speech, toxicity, sexual content, and violent threats. Manual moderation is slow, expensive, and not scalable.
 
@@ -40,7 +40,7 @@ To improve speed and efficiency, I executed all agents in parallel using Python�
     Modular and scalable design (new agents can be added easily)
     Closer to real Trust & Safety systems used in industry
 
-**Core Concept & Value**
+ ## Core Concept & Value
 
 The core idea of my project is a parallel multi-agent moderation system, where multiple agents independently analyze the same text for different harmful behaviours (harassment, hate speech, spam, toxicity, etc.).
 
@@ -102,7 +102,7 @@ Each agent has its own instructions and operates independently.
 To improve speed, I execute all agents in parallel using Python’s concurrent.futures.
 This allows the system to classify text in real-time.
 
-**Complete Moderation Pipeline**
+## Complete Moderation Pipeline
 The system performs the following:
 
     Accepts raw text
@@ -114,12 +114,12 @@ The system performs the following:
 
 Overall, I created a full moderation workflow from input → AI analysis → structured output → UI display. 
 
-**Flow / Architecture--**
+## Flow / Architecture--
 System Flow Diagram
 
 <img width="1536" height="1024" alt="diagram" src="https://github.com/user-attachments/assets/4750e3ff-4236-400d-aa0a-428add2f4da6" />
 
-**Architecture Explanation**
+## Architecture Explanation
 
 The system follows a simple flow from user input -> backend processing -> final output.
 1. **User**
