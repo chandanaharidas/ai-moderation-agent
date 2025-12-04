@@ -63,8 +63,7 @@ Backend in Google Colab
 The backend is developed and executed in Google Colab. All agent definitions, prompts, parallel execution logic, and result formatting happen here.
 
 Colab manages:
-
-    loading Gemini
+##loading Gemini
     running all parallel agents
     generating JSON outputs
     handling multi-line inputs
