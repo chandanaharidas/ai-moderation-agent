@@ -15,6 +15,7 @@ Why agents?
 In this project, I designed a parallel agent system because content moderation is not a single-step task. Different types of harmful behavior (harassment, hate speech, toxicity, sexual, violence etc) require different forms of analysis.
 
 Instead of depending on one large agent to do everything, I created multiple specialized agents, each with a dedicated responsibility:
+
 **Harassment Agent** → Detects rude, insulting, intimidating behavior
 
 **Hate Speech Agent** → Detects prejudice targeting race, gender, religion, caste, or groups
@@ -48,17 +49,17 @@ This improves accuracy and reduces misclassification.
 
 Value of this approach:
 
-Real-time automated detection
+**Real-time automated detection**
 
-Higher accuracy with dedicated agents
+**Higher accuracy with dedicated agents**
 
-Faster outputs through parallel execution
+**Faster outputs through parallel execution**
 
-Scalable system (easily add new agents)
+**Scalable system (easily add new agents)**
 
-Reduces workload for human moderators
+**Reduces workload for human moderators**
 
-Supports safer online platforms
+**Supports safer online platforms**
 
 Together, the parallel agents and structured outputs create a practical, high-value solution for Trust & Safety teams handling large volumes of content.
 What I created --
@@ -190,22 +191,22 @@ The UI shows the final moderation:
 
 This demo explains how my AI-based text moderation system works.
 
-1️⃣ User enters a text
+**1️⃣ User enters a text**
 
 The process starts when the user types or pastes any text into the input box on my web interface.
 This could be a comment, message, or any content that needs to be checked.
 
-2️⃣ User clicks the “Moderate” button
+**2️⃣ User clicks the “Moderate” button**
 
 Once the text is entered, the user clicks the Moderate button.
 This triggers a request to the backend.
 
-3️⃣ Frontend sends the text to the Flask backend
+**3️⃣ Frontend sends the text to the Flask backend**
 
 The text is sent through a POST request.
 The frontend does not do any AI work — it simply collects the input and sends it to the server.
 
-4️⃣ Flask backend receives and prepares the text
+**4️⃣ Flask backend receives and prepares the text**
 
 The backend:
 
@@ -219,25 +220,25 @@ Prepares the prompt for the Gemini AI model
 
 Then it forwards the text to the moderation agent.
 
-5️⃣ Gemini AI analyses the text
+**5️⃣ Gemini AI analyses the text**
 
 The AI checks the content for:
 
-Hate speech
+**Hate speech**
 
-Abuse
+**Abuse**
 
-Threats
+**Threats**
 
-Harassment
+**Harassment**
 
-Sexual content
+**Sexual content**
 
-Toxicity
+**Toxicity**
 
-Harmful intent
+**Harmful intent**
 
-Gemini returns:
+# Gemini returns:
 
 A category
 
@@ -245,7 +246,7 @@ Action-Approve/Remove/Flag
 
 Reason -A short explanation
 
-6️⃣ Backend structures the AI response
+**6️⃣ Backend structures the AI response**
 
 The Flask backend formats the AI output into a clean JSON response:
 
@@ -255,7 +256,7 @@ reason → explanation
 
 This helps the frontend display it neatly.
 
-7️⃣ Result displayed to the user
+**7️⃣ Result displayed to the user**
 
 The frontend finally shows:
 
@@ -265,7 +266,7 @@ Why it was marked that way
 
 The result appears instantly, allowing the user to understand the safety of their text
 
-5️⃣ Summary Dashboard
+**5️⃣ Summary Dashboard**
 
 After performing multiple moderations ( batch), the system generates a real-time Summary Dashboard that helps the user understand the overall content safety patterns.
 
