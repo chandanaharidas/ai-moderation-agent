@@ -84,8 +84,8 @@ The /moderate API endpoint receives text, sends it to the agents, and returns st
 Multi-Agent System Powered by Gemini
 The core logic of my system uses parallel Gemini agents, each specializing in one harmful-content category:
 
-    Harassment Agent
-    Hate Speech Agent
+    **Harassment Agent**
+    Hatet Speech Agent
     Spam Agent
     Toxicity Agent
     Sexual Agent
